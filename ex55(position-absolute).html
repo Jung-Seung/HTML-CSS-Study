@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #box{
+            width:1200px;
+            height:700px;
+            background-color: aqua;
+            position:relative;
+            left:100px;
+            top:100px;
+        }
+        /*
+        position:absolute는 상위요소 기준 얼마 이동
+        상위요소는 주로 부모를 설정함
+        지정할 상위요소에 position:relative,absolute
+        주로 relative만 쓰고, left, top 안쓰면 움직이지 않음
+        */
+        #box>div{
+            width:200px;
+            height:200px;
+            position:absolute;
+            /*box기준으로 얼마 이동*/
+        }
+        #box1{
+            left:100px;
+            top:100px;
+            background-color: aquamarine;
+        }
+        #box2{
+            left:900px;
+            top:100px;
+            background-color: aliceblue;
+        }
+        #box3{
+            left:100px;
+            top:400px;
+            background-color: antiquewhite;
+        }
+        #box4{
+            left:900px;
+            top:400px;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="box1">박스1</div>
+        <div id="box2">박스2</div>
+        <div id="box3">박스3</div>
+        <div id="box4">박스4</div>
+    </div>
+</body>
+</html>

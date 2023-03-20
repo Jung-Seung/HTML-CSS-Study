@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type:none;
+            width:400px;
+            height:200px;
+            background-color: aqua;
+        }
+        a{
+            text-decoration:none;
+        }
+        ul>li{
+            float:left;
+            margin-right:20px;
+            position:relative;
+        }
+        /*
+        ul>li::before{
+            content:'b';
+            color:blue;
+        }
+        */
+        ul>li::after{
+            content:'';
+            display:block;
+            width:1px;
+            height:15px;
+            background-color:#777;
+        }
+        ul>li:first-child::after{
+            position:absolute;
+            left:42px;
+            top:5px;
+        }
+        ul>li:nth-child(2)::after{
+            position:absolute;
+            left:73px;
+            top:5px;
+        }
+        ul>li:last-child::after{
+            display:none;
+        }
+        ul>li>a{
+            display:inline;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="http://www.naver.com">소개</a>
+        </li>
+        <li>
+            <a href="http://www.naver.com">공지사항</a>
+        </li>
+        <li>
+            <a href="http://www.naver.com">찾아오시는길</a>
+        </li>
+    </ul>
+</body>
+</html>

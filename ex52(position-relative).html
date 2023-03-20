@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height:100px;
+        }
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color: green;
+            position:relative;
+            left:100px; /*left->오른쪽 이동*/
+            top:0px; /*top->아래쪽 이동*/
+        }
+        #box3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        position속성으로 위치 설정
+        모든 요소는 기본적으로 position:static
+        static - 정적인 (안움직인다)
+        relative - 상대적인 (현재 위치 기준 얼마 이동)
+        absolute - 절대적인 (상위요소 기준 얼마 이동)
+        fixed - 고정된 (viewport 기준 얼마 이동)
+    -->
+    <div id="box1">
+        박스1
+    </div>
+    <div id="box2">
+        박스2
+    </div>
+    <div id="box3">
+        박스3
+    </div>
+</body>
+</html>
