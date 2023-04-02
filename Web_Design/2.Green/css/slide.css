@@ -1,0 +1,12 @@
+
+#slide{
+    overflow: hidden;
+}
+
+#slide-contents{
+    width:3600px;
+    height:300px;
+}
+#slide-contents>img{
+    float:left;
+}

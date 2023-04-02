@@ -1,0 +1,15 @@
+
+#slide{
+    /*1200,300*/
+    overflow: hidden;
+    /*자기 자신영역 넘친거 숨긴다.*/
+}
+
+#slide-contents{
+    width:1200px;
+    height:900px;
+}
+
+#slide-contents>img{
+    display:block;
+}

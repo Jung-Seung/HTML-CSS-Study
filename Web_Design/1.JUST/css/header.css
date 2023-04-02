@@ -1,0 +1,57 @@
+
+#header>#logo{
+    width:200px;
+    height:100px;
+    /* background-color: chartreuse; */
+    float:left;
+    /*왼쪽부터 가로배치*/
+}
+
+#header>#logo>img{
+    position: relative;
+    top:25px;
+}
+
+#header>#nav{
+    width:1000px;
+    height:100px;
+    /* background-color: chocolate; */
+    float:left;
+}
+
+#gnb{
+    float:right;
+    position: relative;
+    left:-30px;
+    top:20px;
+}
+#gnb>li{
+    float:left;
+}
+
+#gnb>li>a{
+    display:block;
+    width:100px;
+    height:40px;
+    /* background-color:indianred; */
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box; 
+}
+#lnb>li>a{
+    display:block;
+    width:100px;
+    height:40px;
+    /* background-color:indigo; */
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box; 
+}
+
+#gnb li a:hover{
+    background-color:#222328;
+    color:#ffffff;
+}
+#lnb{
+    display:none;
+}

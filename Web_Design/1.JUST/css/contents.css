@@ -1,0 +1,137 @@
+
+#contents>#cont1{
+    width:480px;
+    height:200px;
+    /* background-color: darkcyan; */
+    float:left;
+}
+#cont1>#tab{
+    width:475px;
+    height:195px;
+    /* background-color: darkorange; */
+}
+#tab>#tab-btn{
+    width:470px;
+    height:40px;
+    /* background-color: darkkhaki; */
+    padding-left:30px;
+    box-sizing: border-box;
+}
+#tab>#tab-btn>a{
+    display:inline-block;
+    width:100px;
+    height:40px;
+    /* background-color: plum; */
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+}
+
+#tab>#tab-contents{
+    width:470px;
+    height:150px;
+    /* background-color: darkolivegreen; */
+}
+#tab-contents>div{
+    width:465px;
+    height:145px;
+}
+#tab-contents>div:first-child{
+    /* background-color: lightcoral; */
+}
+
+#notice>ul{
+    list-style-type:disc;
+}
+
+#notice>ul>li{
+    margin-bottom: 1px;
+}
+
+#notice>ul>li>a{
+    display:block;
+    width:460px;
+    height:27px;
+    /* background-color: powderblue; */
+    position: relative;
+}
+
+#notice>ul>li>a::after{
+    display:block;
+    content:'';
+    width:2px;
+    height:2px;
+    background-color: #222328;
+    position: absolute;
+    left:5px;
+    top:8px;
+}
+
+#notice>ul>li>a>span:first-child{
+    float:left;
+    width:350px;
+    height:27px;
+    /* background-color: palegreen; */
+    padding-left:15px;
+    box-sizing: border-box;
+}
+#notice>ul>li>a>span:nth-child(2){
+    float:left;
+    width:105px;
+    height:27px;
+    /* background-color: plum; */
+}
+
+#tab-contents>div:nth-child(2){
+    /* background-color: lightgreen; */
+    display:none;
+}
+
+#gallery>ul{
+    position: relative;
+    left:20px;
+    top:10px;
+}
+
+#gallery>ul>li{
+    float:left;
+    margin-right: 15px;
+}
+
+#gallery>ul>li>a>img{
+    border-radius:10px;
+}
+
+#contents>#cont2{
+    width:360px;
+    height:200px;
+    /* background-color: darkmagenta; */
+    float:left;
+}
+
+#contents>#cont2>a{
+    position: relative;
+    left:10px;
+    top:10px;
+}
+#contents>#cont2>a>img{
+    width:340px;
+    height:180px;
+}
+
+#contents>#cont3{
+    width:360px;
+    height:200px;
+    /* background-color: darkorange; */
+    float:left;
+}
+
+#contents>#cont3>a{
+    position: relative;
+    left:10px;
+    top:10px;
+}
+#contents>#cont3>a>img{
+    width:340px;
+    height:180px;
+}

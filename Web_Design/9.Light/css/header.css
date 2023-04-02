@@ -1,0 +1,52 @@
+
+#aside>#logo{
+    width:200px;
+    height:100px;
+    background-color: chartreuse;
+}
+
+#aside>#logo>img{
+    position: relative;
+    top:25px;
+    left:20px;
+}
+
+#aside>#nav{
+    width:200px;
+    height:550px;
+    background-color: chocolate;
+}
+
+#gnb{
+    position: relative;
+    top:20px;
+    left:20px;
+}
+
+#gnb>li>a{
+    display: block;
+    width:150px;
+    height:40px;
+    background-color: indianred;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+#lnb>li>a{
+    display: block;
+    width:150px;
+    height:40px;
+    background-color: indigo;
+    text-align: center;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+
+#lnb{
+    display: none;
+}
+
+#gnb li a:hover{
+    background-color:#222328;
+    color:#ffffff;
+}

@@ -1,0 +1,43 @@
+
+#footer>#logo{
+    width:200px;
+    height:100px;
+    /* background-color: palegreen; */
+    float:left;
+}
+#footer>#logo>img{
+    position: relative;
+    top:25px;
+}
+
+#footer>#copyright{
+    width:800px;
+    height:100px;
+    /* background-color: paleturquoise; */
+    float:left;
+}
+#footer>#copyright>address{
+    position: relative;
+    left:50px;
+    top:25px;
+}
+
+#footer>#sns{
+    width:200px;
+    height:100px;
+    /* background-color: palevioletred; */
+    float:left;
+}
+
+#sns>ul{
+    width:190px;
+    height:80px;
+    /* background-color: darkgreen; */
+    position: relative;
+    top:20px;
+    left:10px;
+}
+#sns>ul>li{
+    float:left;
+    margin-right: 7px;
+}

@@ -1,0 +1,39 @@
+
+#contents>#cont1{
+    width:320px;
+    height:200px;
+    background-color: darkkhaki;
+    float:left;
+}
+#contents>#cont2{
+    width:240px;
+    height:200px;
+    background-color: darkorchid;
+    float:left;
+}
+#contents>#cont2>a{
+    position: relative;
+    left:10px;
+    top:10px;
+}
+#contents>#cont2>a>img{
+    width:220px;
+    height:180px;
+}
+
+#contents>#cont3{
+    width:240px;
+    height:200px;
+    background-color: darkseagreen;
+    float:left;
+}
+
+#contents>#cont3>a{
+    position: relative;
+    left:10px;
+    top:10px;
+}
+#contents>#cont3>a>img{
+    width:220px;
+    height:180px;
+}
